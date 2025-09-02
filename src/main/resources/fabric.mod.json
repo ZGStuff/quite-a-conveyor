@@ -1,12 +1,13 @@
 {
   "schemaVersion": 1,
-  "id": "examplemod",
+  "id": "qbaconveyor",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This mod aims to help new BTA modders.",
+  "name": "Quite a Conveyor",
+  "description": "NOT MY CODE (unless explicitly stated). The removed conveyor of QBA, now as its own mod!",
   "authors": [
-    "Turnip Labs"
+    "Meganobody",
+		"InvisMC"
   ],
   "contact": {
     "homepage": "",
@@ -19,20 +20,20 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-			"turniplabs.examplemod.ExampleMod"
+			"invisidiot.qbaconveyor.ModCore"
     ],
 		"beforeGameStart": [
-			"turniplabs.examplemod.ExampleMod"
+			"invisidiot.qbaconveyor.ModCore"
 		],
 		"afterGameStart": [
-			"turniplabs.examplemod.ExampleMod"
+			"invisidiot.qbaconveyor.ModCore"
 		],
 		"recipesReady": [
-			"turniplabs.examplemod.ExampleMod"
+			"invisidiot.qbaconveyor.ModCore"
 		]
 	},
   "mixins": [
-      "examplemod.mixins.json"
+		"qbaconveyor.mixins.json"
   ],
 
   "depends": {
